@@ -1,0 +1,286 @@
+* {
+    /* outline: 1px solid #999 */
+}
+
+div,h1,h2,h3,h4,h5,p{
+    margin: 0;;
+}
+
+html {
+    min-width: 1200px;
+  }
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.hello {
+    width: 100%;
+    position: absolute;
+    opacity: 0.1;
+    top: 0;
+    left: 0;
+}
+
+nav {
+    background-color: #525050;
+    padding: 36px 0;
+    font-size: 0px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 23px;
+    letter-spacing: 6px;
+    display: inline-block;
+    vertical-align: middle;
+    color:  #D3D3D3;
+}
+
+.menu {
+    display: inline-block;
+    font-size: 0;
+    vertical-align: middle;
+}
+
+h1, .menu {
+    margin-right: 55px;
+}
+
+.menu a {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+    color: #D3D3D3;
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.menu a+a {
+    margin-left: 45px;
+}
+
+.menu a:hover {
+    color: white;
+}
+
+.cart {
+    width: 35px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cart img {
+    width: 100%;
+}
+
+header {
+    text-align: center;
+}
+
+.cover {
+    padding: 280px 0 185px 0;
+    background-image: url(image/cover.jpg);
+    background-position: center;
+    background-size: cover;
+} 
+
+.advertisement {
+    display: inline-block;
+    padding: 30px 50px;
+    background: linear-gradient(to right,rgb(255,255,255,0.6),rgb(255,255,255,0));
+}
+
+.advertisement h2 {
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    line-height: 1;
+    color: #2D2E2F;
+    font-family: 'Judson', serif;
+}
+
+.advertisement a {
+    display: inline-block;
+    background-color: #2D2E2F;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 20px;
+    padding: 10px 70px;
+    margin-top: 25px;
+}
+
+.free_shipping_note {
+    background-color: #E4E4E4;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    letter-spacing: 4px;
+    padding: 14px 0;
+    color: #2D2E2F;
+}
+
+main {
+    padding: 70px 0px 88px;
+}
+
+section {
+    width: 1020px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h3 {
+    font-size: 45px;
+    color: #2D2E2F;
+    letter-spacing: 15px;
+    font-family: 'Judson', serif;
+    font-weight: 400;
+}
+
+h3::after {
+    display: block;
+    content: "";
+    margin: 32px auto;
+    border-top: 1px solid #525050;
+    width: 33px;
+}
+
+h4 {
+    font-family: 'Raleway', sans-serif;
+    color: #2D2E2F;
+    font-size: 20px;
+    letter-spacing: 7px;
+}
+
+.shopping_window {
+    font-size: 0;
+    text-align-last: justify;
+    margin-top: 80px;
+}
+
+.products {
+    display: inline-block;
+    height: 452px;
+    overflow: hidden;
+}
+
+.products:not(:last-child) {
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #525050;
+    text-align: center;
+    padding: 85px 0 68px;
+}
+
+.information {
+    font-size: 0px;
+}
+
+.information h5 {
+    font-size: 14px;
+    color: #D3D3D3;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+}
+
+.social_media , .subscription {
+    margin-right: 130px;
+}
+
+.social_media {
+    display:inline-block;
+    vertical-align: top;
+}
+
+.social_media_menu {
+    margin-top: 10px;
+    text-align-last: justify;
+
+}
+
+.social_media_menu a {
+    display: inline-block;
+}
+
+.social_media_menu a+a {
+    margin-left: 15px;
+}
+
+.fab , .fas {
+    font-size: 22px;
+    color: white;
+}
+
+.subscription {
+    display:inline-block;
+    vertical-align: top;
+    text-align: left;
+}
+
+.subscription::after { 
+    content: "";
+    display: block; 
+    clear: both;
+  }
+
+.type_in {
+    display: block;
+    width:  310px;
+    border: 1px solid #D3D3D3;
+    background-color: #525050;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    color: #D3D3D3;
+    padding: 7px;
+    margin-top: 10px;
+    font-weight: 700;
+}
+
+.type_in::placeholder {
+    color: #D3D3D3;
+}
+
+.submit {
+    font-size: 14px;
+    color:  #444;
+    font-family: 'Raleway', sans-serif;
+    background-color: #D3D3D3;
+    border: 1px solid #444;
+    padding: 8px 12px;
+    margin-top: 10px;
+    float: right;
+    cursor: pointer;
+}
+
+input:focus {
+    outline: none;
+  }
+
+address {
+    display:inline-block;
+    vertical-align: top;
+    font-style: normal;
+}
+
+p {
+    font-size: 15px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 10px;
+}
+
+.copyrights {
+    color: #D3D3D3;
+    margin-top: 60px;
+}
+
+.copyrights a {
+    color: #D3D3D3;
+    text-decoration-color: #2D2E2F;
+}
